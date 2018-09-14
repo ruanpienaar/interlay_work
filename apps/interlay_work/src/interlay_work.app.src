@@ -1,0 +1,12 @@
+{application, interlay_work,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { interlay_work_app, []}},
+  {env, []}
+ ]}.
